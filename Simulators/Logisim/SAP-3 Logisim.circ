@@ -141,7 +141,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(880,490)" to="(890,490)"/>
     <wire from="(740,670)" to="(750,670)"/>
     <wire from="(740,350)" to="(750,350)"/>
-    <wire from="(390,440)" to="(590,440)"/>
     <wire from="(380,430)" to="(580,430)"/>
     <wire from="(290,620)" to="(350,620)"/>
     <wire from="(1010,550)" to="(1010,560)"/>
@@ -267,6 +266,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,1080)" to="(400,1170)"/>
     <wire from="(760,690)" to="(760,710)"/>
     <wire from="(590,1060)" to="(760,1060)"/>
+    <wire from="(370,440)" to="(590,440)"/>
     <wire from="(740,350)" to="(740,390)"/>
     <wire from="(460,810)" to="(490,810)"/>
     <wire from="(590,1110)" to="(590,1220)"/>
@@ -377,10 +377,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(530,860)" name="Controlled Buffer">
       <a name="width" val="16"/>
       <a name="control" val="left"/>
-    </comp>
-    <comp lib="1" loc="(370,440)" name="NOT Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="20"/>
     </comp>
     <comp lib="0" loc="(1080,1190)" name="Pin">
       <a name="facing" val="west"/>
