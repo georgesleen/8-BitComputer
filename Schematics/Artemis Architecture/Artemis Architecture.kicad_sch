@@ -1,5 +1,52 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e5aa38bc-c1b3-42af-8692-454c67b5224c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 109.22 66.04)
+		(size 22.86 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66fc4ad0-eadf-41c4-8db4-104197116d6a")
+		(property "Sheetname" "Artemis ALU"
+			(at 109.22 65.3284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Artemis ALU.kicad_sch"
+			(at 109.22 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Artemis Architecture"
+				(path "/e5aa38bc-c1b3-42af-8692-454c67b5224c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
