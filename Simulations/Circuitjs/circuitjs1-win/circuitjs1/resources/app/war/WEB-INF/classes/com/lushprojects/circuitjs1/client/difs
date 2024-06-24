@@ -1,0 +1,15 @@
+diff --git a/src/com/lushprojects/circuitjs1/client/CirSim.java b/src/com/lushprojects/circuitjs1/client/CirSim.java
+index 941384f..1e07967 100644
+--- a/src/com/lushprojects/circuitjs1/client/CirSim.java
++++ b/src/com/lushprojects/circuitjs1/client/CirSim.java
+@@ -5462,9 +5489,7 @@ MouseOutHandler, MouseWheelHandler {
+     			tempMouseMode = mouseMode;
+     		}
+     		if (cc==32) {
+-			    setMouseMode(MODE_SELECT);
+-			    mouseModeStr = "Select";
+-			    tempMouseMode = mouseMode;
++			menuPerformed("key", "centrecircuit");
+ 			e.cancel();
+     		}
+     	}
