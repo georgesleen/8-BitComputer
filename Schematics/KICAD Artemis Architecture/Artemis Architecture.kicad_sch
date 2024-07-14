@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 109.22 66.04)
-		(size 22.86 27.94)
+		(at 146.05 88.9)
+		(size 17.78 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16,10 +16,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "66fc4ad0-eadf-41c4-8db4-104197116d6a")
-		(property "Sheetname" "Artemis ALU"
-			(at 109.22 65.3284 0)
-			(show_name yes)
+		(uuid "7429cd68-8649-41c9-882b-528396eb7a0e")
+		(property "Sheetname" "Artemis ALU Module"
+			(at 146.05 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,8 +26,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Artemis ALU.kicad_sch"
-			(at 109.22 94.5646 0)
+		(property "Sheetfile" "Artemis ALU Module.kicad_sch"
+			(at 146.05 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
