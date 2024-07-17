@@ -81,7 +81,7 @@
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "ignore",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -179,8 +179,6 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
-        0.3,
         0.5,
         1.0
       ],
@@ -237,7 +235,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Artemis ALU Module.kicad_pro",
+    "filename": "Artemis Register Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -271,8 +269,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Artemis ALU Module.net",
-      "plot": "../../Gerber Files/",
+      "netlist": "Artemis A Register.net",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

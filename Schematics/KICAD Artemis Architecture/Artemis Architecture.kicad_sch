@@ -369,6 +369,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 605.79 251.46)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f3c9fbe-265d-4e10-984a-2092feb0c32d")
+		(property "Sheetname" "Register A"
+			(at 605.79 250.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Artemis Register Module.kicad_sch"
+			(at 605.79 255.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Artemis Architecture"
+				(path "/e5aa38bc-c1b3-42af-8692-454c67b5224c"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

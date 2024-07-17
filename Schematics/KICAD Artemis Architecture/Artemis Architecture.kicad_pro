@@ -582,6 +582,10 @@
     [
       "7429cd68-8649-41c9-882b-528396eb7a0e",
       "Artemis ALU Module"
+    ],
+    [
+      "9f3c9fbe-265d-4e10-984a-2092feb0c32d",
+      "Register A"
     ]
   ],
   "text_variables": {}
