@@ -235,7 +235,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Artemis Register Module.kicad_pro",
+    "filename": "General Register V1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -270,7 +270,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Artemis A Register.net",
-      "plot": "",
+      "plot": "../../Production Files/General Register V1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
