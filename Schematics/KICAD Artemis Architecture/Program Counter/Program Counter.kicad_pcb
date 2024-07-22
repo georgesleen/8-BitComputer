@@ -1814,7 +1814,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "2f079f0a-2af4-49b4-ad0d-8e6ec81d850a")
 			(effects
@@ -1969,7 +1969,7 @@
 			(uuid "110a3619-bf36-4b84-9c56-78b367db7baa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4687852c-4423-447b-bfb8-beeb1746f849")
 			(effects
@@ -4778,7 +4778,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 360)
+			(at 1.27 -3.56 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8f30e418-62a9-49c0-bc5c-b33241f7b1bf")
@@ -4790,7 +4790,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "68a431b4-319d-429e-b1f7-c7a9bec319c7")
 			(effects
@@ -4949,7 +4949,7 @@
 			(uuid "72b3fc11-e156-43e3-9fa2-7c44905ec191")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "fbbd93be-e089-4bff-8811-9c57f6426c1a")
 			(effects
@@ -7693,16 +7693,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 101.7 61)
-		(end 164.3 92.6)
+	(gr_line
+		(start 102.047487 60.997487)
+		(end 163.952513 60.997487)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "a56345fb-9471-4871-8a1f-12c6ae2efbdb")
+		(uuid "0425a8af-4013-446d-bf2d-426aaa10f94a")
+	)
+	(gr_line
+		(start 163.952513 92.602513)
+		(end 102.05 92.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "22c117da-3c83-4d58-8685-a46fc6f7d45e")
+	)
+	(gr_arc
+		(start 163.952513 60.997487)
+		(mid 164.2 61.1)
+		(end 164.302513 61.347487)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a696cab-de6c-41e9-be7d-c6001fb3bfa9")
+	)
+	(gr_arc
+		(start 102.05 92.6)
+		(mid 101.802513 92.497487)
+		(end 101.7 92.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6197fdbe-4ca9-4fd5-9245-8ea34a866842")
+	)
+	(gr_arc
+		(start 101.697487 61.347487)
+		(mid 101.8 61.1)
+		(end 102.047487 60.997487)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf93cadd-3259-4cc8-862d-9fb9018dde01")
+	)
+	(gr_line
+		(start 164.302513 61.347487)
+		(end 164.302513 92.252513)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e6b5826b-2c95-4661-aa6b-f4040a499266")
+	)
+	(gr_arc
+		(start 164.302513 92.252513)
+		(mid 164.2 92.5)
+		(end 163.952513 92.602513)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f31eb1a0-b85e-4603-a147-1f917bcdf648")
+	)
+	(gr_line
+		(start 101.7 92.25)
+		(end 101.697487 61.347487)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fab967d6-db7f-4e93-9892-2792a1e7f4bb")
 	)
 	(gr_text "Q1"
 		(at 148.53 64.55 0)
