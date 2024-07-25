@@ -3650,6 +3650,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 44.45) (xy 27.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748d28ae-50d7-439a-989b-68b0ae9c38e6")
+	)
+	(wire
+		(pts
 			(xy 194.31 146.05) (xy 194.31 148.59)
 		)
 		(stroke
@@ -3717,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "79f850bc-eb3c-48ad-b0f0-8c6081806c8d")
+	)
+	(wire
+		(pts
+			(xy 27.94 36.83) (xy 20.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9b121f-a0a4-4f84-8336-dfc1a95d68b2")
 	)
 	(wire
 		(pts
@@ -4260,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 50.8) (xy 53.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba3268a-59a7-4a08-95d6-c1c5ee965382")
+	)
+	(wire
+		(pts
 			(xy 148.59 140.97) (xy 148.59 147.32)
 		)
 		(stroke
@@ -4797,6 +4827,16 @@
 			(type default)
 		)
 		(uuid "fce93bf5-4d89-44e6-aede-237591ee7752")
+	)
+	(wire
+		(pts
+			(xy 20.32 36.83) (xy 20.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5603a8-00eb-4a23-a240-47e7eceda76a")
 	)
 	(wire
 		(pts
@@ -6354,6 +6394,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 27.94 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a0691c-584e-48eb-955c-e9e7d10609bd")
+		(property "Reference" "C1"
+			(at 31.75 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 31.75 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 28.9052 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "040b59c8-dbdc-4a0e-98b3-1c45e213c732")
+		)
+		(pin "1"
+			(uuid "aa6e04f8-91cc-42a8-9834-c2ee801a30eb")
+		)
+		(instances
+			(project "General Register V1"
+				(path "/b35ddd74-2f64-4c7c-81be-c3f0abc6c4d1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 64.77 24.13 90)
 		(unit 1)
@@ -7571,6 +7681,71 @@
 			(project "Artemis Architecture"
 				(path "/e5aa38bc-c1b3-42af-8692-454c67b5224c/9f3c9fbe-265d-4e10-984a-2092feb0c32d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 20.32 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f39e2285-161f-4094-998f-e236b541d234")
+		(property "Reference" "#PWR03"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 14.732 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 20.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09550bf-345c-4796-9444-22290cb32101")
+		)
+		(instances
+			(project "General Register V1"
+				(path "/b35ddd74-2f64-4c7c-81be-c3f0abc6c4d1"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
