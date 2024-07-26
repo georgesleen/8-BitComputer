@@ -2296,165 +2296,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 -1.27)
-					(mid 0 -0.5572)
-					(end -2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers hide)
@@ -2715,12 +2556,6 @@
 		(uuid "002ad008-6963-41f4-9a56-92fb82e5b1be")
 	)
 	(junction
-		(at 78.74 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01dcb953-9bf3-484a-af9f-4bffc309fa83")
-	)
-	(junction
 		(at 95.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2887,12 +2722,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa24d84d-f6d4-4d7d-8a03-eca7b947a820")
-	)
-	(junction
-		(at 78.74 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acb98734-59de-4e11-bab0-dbd115b85c66")
 	)
 	(junction
 		(at 93.98 142.24)
@@ -3868,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 180.34) (xy 78.74 180.34)
+			(xy 73.66 180.34) (xy 101.6 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4338,16 +4167,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 172.72) (xy 78.74 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefff5cd-7454-4046-a8fb-33fa400949fc")
-	)
-	(wire
-		(pts
 			(xy 191.77 57.15) (xy 191.77 88.9)
 		)
 		(stroke
@@ -4365,16 +4184,6 @@
 			(type default)
 		)
 		(uuid "b070a1e9-11cf-457f-b350-ef076aff4d10")
-	)
-	(wire
-		(pts
-			(xy 73.66 180.34) (xy 78.74 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31e981e-3892-40e0-b56b-2e7b6ba5bef1")
 	)
 	(wire
 		(pts
@@ -4428,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 78.74 172.72)
+			(xy 73.66 172.72) (xy 101.6 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6019,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1 uF"
 			(at 72.39 177.7999 0)
 			(effects
 				(font
@@ -6028,7 +5837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 69.5452 180.34 0)
 			(effects
 				(font
@@ -6435,82 +6244,6 @@
 			(project ""
 				(path "/e5aa38bc-c1b3-42af-8692-454c67b5224c/7429cd68-8649-41c9-882b-528396eb7a0e"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 78.74 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b74fe691-45ae-43e0-974f-d09d748b1813")
-		(property "Reference" "C1"
-			(at 82.55 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized_US"
-			(at 82.55 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8afbc152-71f6-4624-b975-9df07eb42353")
-		)
-		(pin "1"
-			(uuid "97d9356a-8897-4caa-a27e-c0f2f706b1e8")
-		)
-		(instances
-			(project ""
-				(path "/c35394b0-d1ff-42b6-ad6e-0a155b8effb2"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e5aa38bc-c1b3-42af-8692-454c67b5224c/7429cd68-8649-41c9-882b-528396eb7a0e"
-					(reference "C1")
 					(unit 1)
 				)
 			)
