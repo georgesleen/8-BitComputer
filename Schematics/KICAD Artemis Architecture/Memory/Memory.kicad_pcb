@@ -10078,6 +10078,18 @@
 			)
 		)
 	)
+	(gr_text "Bus UB"
+		(at 191.55 63.858 90)
+		(layer "F.SilkS")
+		(uuid "1613af9d-d190-44dc-95e0-36b0e5b4ae63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "74LS173"
 		(at 138.56 91.965 0)
 		(layer "F.SilkS")
@@ -10102,6 +10114,18 @@
 			)
 		)
 	)
+	(gr_text "Control"
+		(at 107.25 94.4 270)
+		(layer "F.SilkS")
+		(uuid "41f5c892-139c-45c0-9950-0ee3ba9083f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "D"
 		(at 180.7 89.05 90)
 		(layer "F.SilkS")
@@ -10118,6 +10142,18 @@
 		(at 119.812 58 0)
 		(layer "F.SilkS")
 		(uuid "4b96fbc2-747c-40b7-93f7-f8ce162549ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "Power"
+		(at 191.55 53.108 90)
+		(layer "F.SilkS")
+		(uuid "4be4e99b-ad01-4628-b01d-6870e6f5fa38")
 		(effects
 			(font
 				(size 1 1)
@@ -10234,6 +10270,18 @@
 			)
 		)
 	)
+	(gr_text "Current Memory Address"
+		(at 188.3 85.35 0)
+		(layer "F.SilkS")
+		(uuid "b6d8863b-9bf6-40dc-98eb-e23be9933f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "R"
 		(at 177.55 94.6 90)
 		(layer "F.SilkS")
@@ -10250,6 +10298,18 @@
 		(at 190.1 94.6 90)
 		(layer "F.SilkS")
 		(uuid "cbfc23a0-8201-4335-8c3e-a2e92c0e2078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "Bus LB"
+		(at 191.55 77.108001 90)
+		(layer "F.SilkS")
+		(uuid "cf61abd1-f007-4dc0-b95c-4c661f21f921")
 		(effects
 			(font
 				(size 1 1)
